@@ -22,6 +22,7 @@ const menuItemSchema = new Schema (
             type: Number, 
             required: true 
         },
+        {timestamps:true}
     }
 )
 
